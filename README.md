@@ -1,5 +1,8 @@
 # LamaX Operating System v1.0.0
 ## **LamaX, Unix benzeri komutlara sahip 64-bit ve 32-bit bir işletim sistemidir.**
+
+<img width="1536" height="1024" alt="resim" src="https://github.com/user-attachments/assets/09265d6b-16a4-432e-8038-16ed712dc5a7" />
+
 ## **🚀 Özellikler**
 
 * **64-bit and 32-bit Architecture: Modern x86_64 mimarisi desteği**
