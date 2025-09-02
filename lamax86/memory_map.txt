@@ -1,0 +1,188 @@
+Assembly Bootloader Memory Map
+==============================
+Author: Assembly Bootloader Project
+Date: August 29, 2025
+
+Real Mode Memory Layout (16-bit)
+================================
+
+0x00000000 - 0x000003FF : Interrupt Vector Table (1KB)
+  - Contains interrupt vectors for BIOS and hardware interrupts
+  - Critical for system operation, do not modify
+
+0x00000400 - 0x000004FF : BIOS Data Area (256 bytes)
+  - BIOS variables and system information
+  - Hardware configuration data
+
+0x00000500 - 0x00007BFF : Conventional Memory (30KB)
+  - Available for bootloader use
+  - Kernel parameters stored at 0x0500-0x05FF
+  - Temporary buffers and variables
+
+0x00007C00 - 0x00007DFF : Boot Sector (512 bytes) 
+  - Loaded by BIOS from disk sector 0
+  - Contains bootloader code
+  - Must end with signature 0x55AA at offset 510-511
+
+0x00007E00 - 0x0007FFFF : Available Memory (480KB)
+  - Can be used for additional bootloader code
+  - Stack space and temporary data
+
+0x00080000 - 0x0009FFFF : Extended Memory (128KB)
+  - Available for larger programs
+  - Used for loaded files and data structures
+
+Memory Segments Used by Bootloader
+==================================
+
+BOOT_SEGMENT        = 0x07C0  (Boot sector location)
+DISK_BIN_SEGMENT    = 0x1000  (disk.bin loaded here - 64KB)
+KERNEL_SEGMENT      = 0x2000  (kernel.bin loaded here - 128KB)  
+KERNEL_PARAM_SEGMENT= 0x0500  (Kernel parameters - 256 bytes)
+
+Detailed Memory Allocation
+==========================
+
+0x00000500 - 0x000005FF : Kernel Parameters Block
+  - Boot drive number
+  - Hardware detection results
+  - PCI device count
+  - Disk drive count
+  - Secure boot status
+  - Bootloader hash value
+
+0x00007C00 - 0x00007DFF : Main Bootloader Code
+  - Entry point and initialization
+  - Hardware detection routines
+  - VGA initialization code
+  - Protected mode transition
+  - File system access functions
+
+0x00010000 - 0x0001FFFF : disk.bin Load Area (64KB)
+  - Loaded from storage device
+  - Contains file system or disk image
+  - Searched for kernel.bin
+
+0x00020000 - 0x0003FFFF : kernel.bin Load Area (128KB)  
+  - Final kernel binary
+  - Validated before execution
+  - Entry point typically at offset 0
+
+Stack Layout
+============
+
+Stack Pointer (SP) initialized to 0x7C00
+Stack grows downward from 0x7BFF to 0x0500
+
+Register Usage Conventions
+==========================
+
+DS : Data Segment (usually 0x0000)
+ES : Extra Segment (varies by function)
+SS : Stack Segment (0x0000) 
+CS : Code Segment (0x07C0 initially)
+
+AX : Accumulator (general purpose)
+BX : Base register (buffer pointers)
+CX : Counter (loop operations)  
+DX : Data register (I/O operations)
+SI : Source Index (string operations)
+DI : Destination Index (string operations)
+SP : Stack Pointer
+BP : Base Pointer
+
+Protected Mode Memory Layout (32-bit)
+====================================
+
+After transition to protected mode:
+
+0x00000000 - 0x000FFFFF : Low Memory (1MB)
+  - Real mode compatibility
+  - BIOS data structures
+
+0x00100000 - 0x00FFFFFF : Extended Memory (15MB)
+  - Available for kernel and applications
+  - No more 640KB barrier
+
+Global Descriptor Table (GDT)
+============================
+
+Selector 0x00 : Null Descriptor
+Selector 0x08 : Code Segment (0x00000000-0xFFFFFFFF, executable)
+Selector 0x10 : Data Segment (0x00000000-0xFFFFFFFF, read/write)
+
+Hardware Memory Regions
+======================
+
+0x000A0000 - 0x000BFFFF : VGA Graphics Memory (128KB)
+  - Mode 13h: 0xA0000-0xAFFFF (64KB, 320x200x8)
+  - Text Mode: 0xB8000-0xBFFFF (32KB, 80x25x16)
+
+0x000C0000 - 0x000FFFFF : ROM BIOS Area (256KB)
+  - System BIOS code
+  - Option ROM for hardware devices
+
+I/O Port Ranges
+===============
+
+0x0040-0x0043 : System Timer
+0x0060-0x0064 : Keyboard Controller  
+0x0070-0x0071 : CMOS/RTC
+0x01F0-0x01F7 : Primary IDE Controller
+0x0170-0x0177 : Secondary IDE Controller
+0x03C0-0x03DF : VGA Registers
+0x0CF8-0x0CFF : PCI Configuration
+
+File System Layout on Disk
+==========================
+
+Sector 0     : Master Boot Record (MBR)
+  - Boot code (446 bytes)
+  - Partition table (64 bytes)  
+  - Boot signature (2 bytes)
+
+Sector 1+    : disk.bin location
+  - Contains file system or disk image
+  - Bootloader searches this for kernel.bin
+
+Sectors 2-N  : File system data
+  - FAT12/16/32 or custom format
+  - Directory entries and file data
+
+Memory Safety Notes
+==================
+
+1. Always verify memory bounds before accessing
+2. Keep stack usage minimal in real mode
+3. Preserve BIOS data areas
+4. Check A20 line status before accessing >1MB
+5. Use appropriate segment registers
+6. Clear direction flag before string operations
+7. Save/restore registers in functions
+8. Handle interrupt flag carefully
+
+Debug Memory Locations
+=====================
+
+0x00000410 : Equipment flags
+0x00000413 : Base memory size in KB
+0x00000417 : Keyboard flags
+0x0000041A : Keyboard buffer head
+0x0000041C : Keyboard buffer tail
+0x0000046C : Daily timer counter
+0x00000472 : Reset flag
+
+Boot Process Memory Usage
+=========================
+
+1. BIOS loads MBR to 0x7C00
+2. Bootloader initializes stack at 0x7C00  
+3. Hardware detection uses temporary buffers
+4. disk.bin loaded to 0x10000
+5. kernel.bin extracted to 0x20000
+6. Parameters prepared at 0x0500
+7. Protected mode entered
+8. Control transferred to kernel
+
+This memory map ensures proper operation and prevents conflicts
+between different components of the bootloader system.
