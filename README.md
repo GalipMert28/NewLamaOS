@@ -4,8 +4,8 @@
 
 * **64-bit and 32-bit Architecture: Modern x86_64 mimarisi desteği**
 * **Multi-stage Boot:**
-* **MBR → Disk Loader → Shell → Kernel(x64-20250902 Versiyonları İçin)**
-* **MBR -> Disk Loader -> Bootloader -> Protected Mode -> Kernel(x86-20250902 Versiyonları İçin)**
+* **MBR → Disk Loader(lamadiskfs64) → Shell(lamabootfs) → Kernel(x64-20250902 Versiyonları İçin)**
+* **MBR -> Disk Loader(lamadiskfs) -> Bootloader -> Protected Mode -> Kernel(x86-20250902 Versiyonları İçin)**
 * **Hybrid Commands: Windows ve Linux komutlarının karışımı(x64-20250902 Versiyonları İçin)**
 * **Unix-like CLI: Komut satırı arayüzü**
 * **VGA Text Mode: Renkli terminal çıktısı**
