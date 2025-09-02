@@ -1,0 +1,47 @@
+; LAMAX64 OS Constants
+; Version 1.0.0
+
+; Bellek adresleri
+BOOT_ADDR equ 0x7C00
+DISK_LOAD_ADDR equ 0x8000
+SHELL_LOAD_ADDR equ 0x9000
+KERNEL_LOAD_ADDR equ 0x100000
+
+; Disk parametreleri
+DISK_SECTORS equ 4      ; disk.bin için sektör sayısı
+SHELL_SECTORS equ 8     ; shell.bin için sektör sayısı
+KERNEL_SECTORS equ 32   ; kernel için sektör sayısı
+
+; Video parametreleri
+VGA_WIDTH equ 80
+VGA_HEIGHT equ 25
+VGA_MEMORY equ 0xB8000
+
+; Renkler
+COLOR_BLACK equ 0x00
+COLOR_BLUE equ 0x01
+COLOR_GREEN equ 0x02
+COLOR_CYAN equ 0x03
+COLOR_RED equ 0x04
+COLOR_MAGENTA equ 0x05
+COLOR_BROWN equ 0x06
+COLOR_LIGHT_GRAY equ 0x07
+COLOR_DARK_GRAY equ 0x08
+COLOR_LIGHT_BLUE equ 0x09
+COLOR_LIGHT_GREEN equ 0x0A
+COLOR_LIGHT_CYAN equ 0x0B
+COLOR_LIGHT_RED equ 0x0C
+COLOR_LIGHT_MAGENTA equ 0x0D
+COLOR_YELLOW equ 0x0E
+COLOR_WHITE equ 0x0F
+
+; Sistem sabitleri
+MAX_PATH equ 256
+MAX_COMMAND equ 128
+STACK_SIZE equ 4096
+
+; ASCII kodları
+ASCII_NEWLINE equ 10
+ASCII_CARRIAGE_RETURN equ 13
+ASCII_SPACE equ 32
+ASCII_BACKSPACE equ 8
