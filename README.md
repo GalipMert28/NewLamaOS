@@ -1,4 +1,4 @@
-# LamaX Operating System v1.0.0
+# LamaX Operating System 
 ## **LamaX, Unix benzeri komutlara sahip 64-bit ve 32-bit bir işletim sistemidir.**
 
 <img width="1536" height="1024" alt="resim" src="https://github.com/user-attachments/assets/09265d6b-16a4-432e-8038-16ed712dc5a7" />
@@ -7,9 +7,9 @@
 
 * **64-bit and 32-bit Architecture: Modern x86_64 mimarisi desteği**
 * **Multi-stage Boot:**
-* **MBR → Disk Loader(lamadiskfs64) → Shell(lamabootfs) → Kernel(x64-20250902 Versiyonları İçin)**
+* **MBR → Disk Loader(lamadiskfs64) → Shell(lamabootfs) → Kernel(x64-20250902 ve Sonraki x64 Versiyonları İçin)**
 * **MBR -> Disk Loader(lamadiskfs) -> Bootloader -> Protected Mode -> Kernel(x86-20250902 Versiyonları İçin)**
-* **Hybrid Commands: Windows ve Linux komutlarının karışımı(x64-20250902 Versiyonları İçin)**
+* **Hybrid Commands: Windows ve Linux komutlarının karışımı(x64-20250902 ve sonraki x64 Versiyonları İçin)**
 * **Unix-like CLI: Komut satırı arayüzü**
 * **VGA Text Mode: Renkli terminal çıktısı**
 * **Memory Management: Temel bellek yönetimi**
