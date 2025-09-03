@@ -1,0 +1,892 @@
+LamaX Universal License Agreement (LULA)
+
+Version 1.0 — Effective as of September 2025
+
+Section 1 — Definitions and Scope
+1.1 Parties
+
+This License Agreement (“Agreement”) is entered into between:
+
+The Licensor: The original creator, maintainer, and rights holder of the LamaX operating system (“LamaX”), hereinafter referred to as Licensor.
+
+The Licensee: Any individual, group of individuals, organization, corporation, governmental entity, or legal body that acquires, downloads, compiles, modifies, executes, distributes, or otherwise makes use of LamaX, hereinafter referred to as Licensee.
+
+Both parties acknowledge and agree that the distribution of LamaX under this Agreement constitutes a binding legal framework applicable to the use, modification, redistribution, and deployment of LamaX in any jurisdiction worldwide, unless superseded by mandatory national law.
+
+1.2 Definitions
+
+For the purposes of this Agreement, the following definitions shall apply:
+
+“LamaX” shall mean the LamaX Operating System in any form, including but not limited to compiled binaries, source code, libraries, modules, drivers, documentation, build scripts, configuration files, data formats, communication protocols, or any derivative works thereof.
+
+“Derivative Work” shall mean any work based upon LamaX or upon which LamaX is based, including but not limited to modifications, translations, adaptations, enhancements, improvements, bug fixes, patches, forks, or ports to other platforms or architectures.
+
+“Redistribution” shall mean the act of making LamaX or Derivative Works available to third parties by any means, including electronic transfer, download, public repository, peer-to-peer distribution, offline media, or any other method of dissemination.
+
+“Commercial Use” shall mean any use of LamaX, whether modified or unmodified, for financial gain, direct or indirect, including but not limited to resale, subscription-based access, software-as-a-service, bundling with hardware, deployment in commercial products, or offering paid support services.
+
+“Personal Use” shall mean non-commercial utilization of LamaX by an individual for personal, educational, experimental, or research purposes, without direct or indirect financial gain.
+
+“Attribution” shall mean the explicit acknowledgment that LamaX, or any Derivative Work thereof, originates from the LamaX project, by including the name “LamaX” in a visible, permanent, and non-erasable manner within any redistributed copy, documentation, or public announcement related to the work.
+
+“Unauthorized Use” shall mean any use of LamaX that is in violation of applicable laws, including but not limited to use for malicious software development, cybercrime, unauthorized surveillance, production of illegal material, or any action prohibited under local, national, or international law.
+
+“Warranty Disclaimer” shall refer to the legal declaration that LamaX is provided “as-is,” without warranty of any kind, whether express, implied, statutory, or otherwise.
+
+“Liability Exclusion” shall refer to the clause that disclaims any responsibility of the Licensor for damages, losses, or liabilities incurred by the Licensee or third parties arising from the use of LamaX.
+
+1.3 Scope of the Agreement
+
+This Agreement governs all use, modification, distribution, and deployment of LamaX, in both source and binary form, whether executed on physical hardware, virtualized environments, embedded systems, cloud infrastructures, or hybrid architectures.
+
+The Licensee acknowledges that LamaX:
+
+May be used, copied, modified, and redistributed freely, provided that all conditions set forth in this Agreement are respected.
+
+Must always retain explicit attribution to the LamaX project by including the name “LamaX” in any redistributed copy, whether original or derivative.
+
+May be employed for both commercial and personal purposes, subject to the obligations and restrictions herein.
+
+Is provided without any express or implied warranty, and that all risks, including but not limited to operational, financial, legal, and technical risks, are borne solely by the Licensee.
+
+Is protected under this Agreement in all jurisdictions worldwide, and that the provisions of this Agreement shall apply in any legal dispute unless superseded by mandatory local law.
+
+1.4 International Applicability
+
+This Agreement is designed to be enforceable in all legal systems across the globe. In the event that certain provisions are deemed unenforceable in a given jurisdiction, the remaining provisions shall continue to remain valid and enforceable.
+
+The Licensee explicitly agrees that this Agreement shall be recognized as binding in courts of law, arbitration panels, and administrative bodie
+
+
+Section 2 — Grant of License and Rights
+2.1 General Grant
+
+Subject to the terms and conditions set forth in this Agreement, the Licensor hereby grants to the Licensee a worldwide, perpetual, royalty-free, irrevocable license to:
+
+Use LamaX in any lawful manner, including execution on hardware, emulation in virtualized systems, deployment in research environments, or integration within larger software ecosystems.
+
+Copy LamaX, in whole or in part, for personal, educational, research, testing, or production purposes, provided that attribution requirements under Section 3 are met.
+
+Modify LamaX, including but not limited to alteration of the source code, configuration, compilation process, documentation, and associated resources, in order to produce Derivative Works.
+
+Distribute LamaX and Derivative Works in both source code and binary form, by any means of transfer, physical or digital, whether free of charge or for commercial consideration.
+
+Commercialize LamaX by embedding, integrating, or offering it as part of products, services, hardware bundles, or software packages, provided that attribution requirements are honored.
+
+This grant is universal in scope and remains valid regardless of jurisdiction, provided that the Licensee adheres to the obligations outlined herein.
+
+2.2 Rights for Personal Use
+
+The Licensee shall be permitted to use LamaX for personal purposes without limitation, including but not limited to:
+
+Academic research and educational projects.
+
+Hobbyist development, experimental system design, or home laboratory deployment.
+
+Use in non-commercial, community-driven, or open research projects.
+
+Creation of tutorials, demonstrations, or technical showcases involving LamaX.
+
+No reporting or notification to the Licensor is required for personal use, though voluntary attribution is encouraged even in purely private deployments.
+
+2.3 Rights for Commercial Use
+
+The Licensee is expressly authorized to engage in commercial use of LamaX, which may include but is not limited to:
+
+Product Integration: Embedding LamaX as a component within a commercial product, such as hardware appliances, consumer devices, or enterprise solutions.
+
+Service Deployment: Utilizing LamaX as part of hosted services, including but not limited to cloud infrastructures, software-as-a-service (SaaS), platform-as-a-service (PaaS), or infrastructure-as-a-service (IaaS).
+
+Resale and Redistribution: Selling LamaX or Derivative Works in binary or source form, either as a standalone product or bundled with other software or hardware.
+
+Support and Maintenance: Offering commercial support, maintenance, consultancy, or integration services related to LamaX, whether for individuals, corporations, or governments.
+
+All commercial uses are permitted without royalties, fees, or additional licensing obligations, provided that attribution is preserved as specified in Section 3.
+
+2.4 Rights to Modify and Create Derivative Works
+
+The Licensee is granted unrestricted rights to modify LamaX in order to create Derivative Works, subject to the following:
+
+Freedom to Fork: The Licensee may fork LamaX into separate projects, provided that such forks include clear attribution to LamaX and maintain visibility of its origin.
+
+Freedom to Adapt: The Licensee may port LamaX to different architectures, platforms, or environments, including but not limited to x86, ARM, RISC-V, SPARC, PowerPC, or emerging processor designs.
+
+Freedom to Extend: The Licensee may develop additional modules, drivers, libraries, or applications that integrate with LamaX, and may distribute such extensions under licenses of their choosing, provided attribution obligations remain satisfied.
+
+Obligation of Attribution: Regardless of the extent of modification, all Derivative Works must prominently display the name “LamaX” within their documentation, metadata, or legal notices, ensuring recognition of the original project.
+
+Failure to acknowledge LamaX in Derivative Works constitutes a material breach of this Agreement.
+
+2.5 Redistribution Rights
+
+Redistribution of LamaX, in whole or in part, whether modified or unmodified, is permitted under the following conditions:
+
+The redistributed copy must include explicit attribution to LamaX in all associated documentation, manifests, and metadata.
+
+Any redistribution, whether free or for commercial gain, must retain this Agreement in its entirety, unmodified, and accessible to end-users.
+
+The redistributed version must not misrepresent LamaX as being developed exclusively by the Licensee; original authorship must remain acknowledged.
+
+Redistribution in proprietary contexts is permitted, provided the obligations in Section 3 are upheld.
+
+2.6 International Recognition of Rights
+
+The rights granted under this Section are intended to be recognized and enforceable in all jurisdictions. In the event of conflict between local laws and this Agreement, the maximum extent of granted rights shall still apply, except where explicitly prohibited by mandatory law.
+
+2.7 Reservation of Rights
+
+The Licensor reserves all rights not expressly granted in this Agreement. No patent rights, trademark rights, or additional intellectual property rights are transferred beyond what is explicitly defined herein.
+
+Section 3 — Obligations of the Licensee
+3.1 Attribution Requirement
+
+The Licensee shall ensure that all uses, copies, modifications, and distributions of LamaX include clear and visible attribution to its origin. Attribution must meet the following requirements:
+
+Name Inclusion: The word “LamaX” shall appear prominently in any documentation, manifest files, legal notices, and about/help sections of derivative works or redistributed binaries.
+
+Statement of Origin: The Licensee must include a statement substantially similar to:
+
+“This software includes components originating from the LamaX Operating System Project.”
+
+Location of Attribution: Attribution must be visible in at least one of the following places:
+
+Documentation delivered with the software,
+
+Source code headers,
+
+License or “About” screens,
+
+Metadata accompanying binary distributions.
+
+Preservation of License: Redistribution must include a full, unmodified copy of this License Agreement.
+
+Failure to provide attribution constitutes a material breach and automatically terminates the rights granted under Section 2.
+
+3.2 Legal Responsibility
+
+The Licensee accepts full legal responsibility for the use, modification, and distribution of LamaX. Specifically:
+
+No Liability of Licensor: The Licensor shall not be held responsible for any damages, losses, liabilities, claims, or legal proceedings arising from use or misuse of LamaX.
+
+Full Risk Assumption: All risks associated with installation, execution, modification, or integration of LamaX are borne exclusively by the Licensee.
+
+Compliance with Law: The Licensee shall not use LamaX for unlawful purposes, including but not limited to:
+
+Development of malicious software,
+
+Unauthorized surveillance or hacking activities,
+
+Distribution in violation of international embargoes or sanctions,
+
+Direct involvement in activities prohibited under criminal or civil law.
+
+International Jurisdiction: This responsibility applies under the laws of all jurisdictions where LamaX is used, distributed, or made accessible, without limitation.
+
+3.3 Distribution Obligations
+
+Whenever the Licensee distributes LamaX, whether modified or unmodified, the following obligations apply:
+
+License Inclusion: This License Agreement must accompany the distributed work, in unmodified form, and must be accessible to all end-users.
+
+Preservation of Notices: Any copyright notices, disclaimers, or attribution statements included in LamaX must be preserved and not removed, altered, or obscured.
+
+Transparency of Origin: Redistribution must not falsely claim authorship or exclusive ownership of LamaX. The original authorship must remain visible.
+
+Derivative Declaration: If the distribution involves modifications, the Licensee must clearly indicate that the work has been altered from its original form, while preserving attribution to LamaX.
+
+3.4 Commercial Obligations
+
+For commercial deployments, the Licensee is subject to additional responsibilities:
+
+Brand Recognition: The presence of the LamaX name in any derivative commercial product must be acknowledged in at least one of the following forms:
+
+In product documentation,
+
+On a website or official publication associated with the product,
+
+Within the software itself (About screen, metadata, or license section).
+
+Consumer Transparency: End-users of commercial derivatives must be made aware that LamaX is the foundation of the software they are using.
+
+No Warranty Representation: The Licensee shall not claim, imply, or misrepresent that the Licensor provides warranty, support, or guarantees regarding LamaX or any derivative thereof.
+
+3.5 Ethical Use Obligation
+
+While LamaX may be used in any lawful context, the Licensee is encouraged to follow ethical principles:
+
+Avoid deploying LamaX in systems that directly contribute to mass surveillance, authoritarian censorship, or large-scale violations of human rights.
+
+Strive to contribute improvements back to the LamaX ecosystem where possible, especially if such improvements enhance system stability, performance, or compatibility.
+
+When feasible, clearly document modifications made to LamaX, to benefit transparency and research reproducibility.
+
+3.6 Enforcement of Obligations
+
+Termination of License: Breach of any obligation under this Section results in the immediate termination of rights granted under Section 2, without prior notice.
+
+Restoration of Rights: In cases of unintentional or non-material breach, rights may be restored if the Licensee corrects the violation within thirty (30) days of discovery.
+
+Legal Remedies: In cases of willful or material breach, the Licensor reserves the right to pursue remedies under applicable law, including injunctive relief, damages, or statutory penalties.
+
+3.7 Universality of Obligations
+
+The obligations outlined in this Section are universally binding, applying equally across all jurisdictions, cultures, and legal systems. The Licensee cannot claim exemption by virtue of regional differences in contract or copyright law.
+
+Section 4 — Limitations of Liability and Disclaimer of Warranty
+4.1 General Disclaimer
+
+LamaX is provided on an “AS IS” basis, with no express or implied warranties. The Licensor expressly disclaims all warranties, conditions, and guarantees of any kind, including but not limited to:
+
+Merchantability: No guarantee is made that LamaX is fit for ordinary or commercial purposes.
+
+Fitness for a Particular Purpose: No guarantee is made that LamaX will fulfill any specific requirement of the Licensee or third parties.
+
+Non-Infringement: No guarantee is made that LamaX does not infringe intellectual property rights of third parties.
+
+Quality or Performance: No guarantee is made regarding stability, speed, security, compatibility, or performance of LamaX.
+
+All risks associated with use, modification, and distribution of LamaX remain with the Licensee.
+
+4.2 Limitation of Liability
+
+To the maximum extent permitted by law, the Licensor shall not be liable for any damages arising out of or related to the use of LamaX, whether direct, indirect, incidental, consequential, special, exemplary, or punitive. This includes, but is not limited to:
+
+Data Loss: Loss, corruption, or destruction of data or digital assets.
+
+System Damage: Malfunction, crash, or permanent damage to hardware or software.
+
+Economic Loss: Loss of profits, business interruptions, contractual damages, or opportunity costs.
+
+Personal Injury: Any injury or harm to persons, whether physical, emotional, or psychological, arising from the use or misuse of LamaX.
+
+Legal or Regulatory Penalties: Any consequences of illegal or unauthorized use of LamaX, including governmental sanctions, fines, or imprisonment.
+
+4.3 Absolute Risk Acceptance by Licensee
+
+By installing, using, modifying, or redistributing LamaX, the Licensee acknowledges and accepts the following:
+
+The Licensee acts entirely at their own risk.
+
+The Licensee assumes full responsibility for system stability, safety, and compliance.
+
+The Licensee agrees not to hold the Licensor accountable under any jurisdiction or legal system.
+
+4.4 No Duty of Support
+
+The Licensor is under no obligation to provide:
+
+Technical support,
+
+Updates or patches,
+
+Security fixes,
+
+Compatibility improvements,
+
+Documentation or assistance of any kind.
+
+Any support provided voluntarily by the Licensor is offered without legal obligation and may be discontinued at any time without notice.
+
+4.5 Force Majeure
+
+The Licensor shall not be liable for failure to perform obligations or damages resulting from causes beyond their reasonable control, including but not limited to:
+
+Natural disasters (earthquakes, floods, storms, etc.),
+
+Acts of war, terrorism, or civil unrest,
+
+Government restrictions, embargoes, or sanctions,
+
+Failures of telecommunications or power networks,
+
+Pandemics, epidemics, or other widespread health emergencies,
+
+Any unforeseen catastrophic event.
+
+In such cases, the Licensee bears full responsibility for ensuring continuity, recovery, and fallback measures.
+
+4.6 International Scope of Liability Exclusion
+
+This limitation of liability applies universally across all jurisdictions. Specifically:
+
+It overrides conflicting local laws to the maximum extent legally permissible.
+
+In jurisdictions where total exclusion of liability is not enforceable, the Licensor’s liability shall not exceed one U.S. dollar (USD $1.00).
+
+This limitation applies even if the Licensor was advised of the possibility of damages or should have reasonably foreseen such risks.
+
+4.7 No Joint Liability
+
+The Licensor shall not be held jointly or severally liable with third parties who may incorporate LamaX into derivative works, distribute LamaX, or use LamaX as a foundation for their products. Each Licensee bears individual and exclusive responsibility for their own actions.
+
+4.8 Disclaimer for High-Risk Environments
+
+LamaX is not designed or intended for use in high-risk environments, including but not limited to:
+
+Nuclear power facilities,
+
+Air traffic control systems,
+
+Military weapon systems,
+
+Medical devices where failure may result in death or injury,
+
+Critical infrastructure control systems.
+
+Use of LamaX in such contexts is strictly at the Licensee’s risk, and the Licensor disclaims all liability for resulting damages or losses.
+
+4.9 Indemnification by Licensee
+
+The Licensee agrees to indemnify, defend, and hold harmless the Licensor against any and all claims, liabilities, damages, losses, costs, and expenses (including attorneys’ fees) arising out of:
+
+Unauthorized or illegal use of LamaX,
+
+Violation of this License,
+
+Any third-party claims resulting from Licensee’s distribution or deployment of LamaX.
+
+This obligation continues even after termination of this License.
+
+4.10 Survival of Disclaimer
+
+The disclaimers, exclusions, and limitations of liability in this Section shall survive:
+
+Termination of this License,
+
+Expiration of intellectual property rights,
+
+The discontinuation of LamaX development,
+
+Any transfer of ownership of LamaX.
+
+4.11 Universality Clause
+
+This Section applies in every court, arbitration body, and tribunal worldwide, regardless of differences in local contract or consumer protection law. Licensees cannot escape the scope of this disclaimer by choosing a favorable jurisdiction.
+
+Section 5 — Grant of Rights for Modification and Redistribution
+5.1 General Grant
+
+Subject to the terms of this License, the Licensor hereby grants to any Licensee a worldwide, perpetual, irrevocable, royalty-free, non-exclusive license to:
+
+Use LamaX in any environment, personal or commercial.
+
+Copy LamaX, in whole or in part, into any system, medium, or storage.
+
+Modify LamaX, including but not limited to altering, adapting, translating, or integrating into larger works.
+
+Redistribute LamaX, whether modified or unmodified, in source or binary form.
+
+Combine LamaX with other works, open-source or proprietary, provided that the requirements of Section 5.4 are met.
+
+5.2 Scope of Permitted Use
+
+The rights granted extend to:
+
+Individuals: Students, hobbyists, researchers, and independent developers.
+
+Organizations: Corporations, non-profits, universities, and government agencies.
+
+Commercial Entities: Entities deploying LamaX as part of a product or service for profit.
+
+Cloud and Hosting Providers: Offering LamaX as part of Software-as-a-Service (SaaS), Platform-as-a-Service (PaaS), or Infrastructure-as-a-Service (IaaS).
+
+No geographic, temporal, or technological limitation applies. The rights remain valid across all jurisdictions, technologies, and future media.
+
+5.3 Right to Fork
+
+The Licensee may create a derivative distribution (“fork”) of LamaX under the following conditions:
+
+The fork must clearly identify itself as distinct from LamaX in branding, versioning, and documentation.
+
+The fork must preserve a clear acknowledgment that it originates from LamaX.
+
+The Licensee is permitted to apply any license of their choosing to their fork, including proprietary licenses, provided that Section 5.4 is satisfied.
+
+5.4 Attribution Requirement
+
+Every copy, modification, or derivative of LamaX must include the following acknowledgment, in prominent and legible form:
+
+“This software originates from LamaX, developed and released under the LamaX License.”
+
+This notice must appear in at least one of the following locations:
+
+Source code headers,
+
+Documentation,
+
+About/Info dialogs,
+
+Licensing sections of packaged distributions.
+
+Failure to include this acknowledgment constitutes a violation of this License and results in immediate termination of the rights granted.
+
+5.5 Naming Restrictions
+
+While modifications are permitted, the name “LamaX” and any associated logos, marks, or identifiers may only be used if:
+
+The Licensee is redistributing an unmodified version of LamaX; or
+
+The Licensee is making clear reference to the original LamaX project as the upstream source.
+
+Derivative works must not mislead users into believing they are official LamaX distributions.
+
+5.6 Redistribution Rights
+
+Redistribution may occur in the following forms:
+
+Source Distribution: Sharing original or modified source code.
+
+Binary Distribution: Compiling and providing executables, libraries, or system images.
+
+Physical Distribution: Distribution on CD, DVD, USB, or embedded hardware.
+
+Network Distribution: Sharing via repositories, package managers, or peer-to-peer systems.
+
+Redistribution is unrestricted in quantity, geography, or audience, provided that attribution is preserved.
+
+5.7 Commercial Use
+
+Licensees are expressly permitted to:
+
+Sell LamaX as part of commercial products or services.
+
+Bundle LamaX with proprietary or closed-source systems.
+
+Provide consulting, training, or support services based on LamaX.
+
+Monetize LamaX through direct or indirect means.
+
+No royalties, fees, or payments are owed to the Licensor for such uses.
+
+5.8 Responsibilities of Redistributors
+
+Redistributors must ensure:
+
+Compliance with all export laws, sanctions, and regulations applicable in their jurisdiction.
+
+That redistributed versions do not remove or obscure the required attribution.
+
+That users of redistributed versions are made aware of the disclaimers and limitations in Section 4.
+
+That modifications do not introduce malicious functionality intended to deceive or harm.
+
+5.9 Right to Integrate with Other Licenses
+
+The Licensee may combine LamaX with works under different licenses, including proprietary licenses, provided that:
+
+Attribution requirements under Section 5.4 are met.
+
+The combined work does not misrepresent itself as official LamaX.
+
+Any conflicting license provisions are resolved in favor of preserving LamaX attribution.
+
+5.10 Irrevocability
+
+The rights granted under this Section are irrevocable so long as the Licensee complies with the terms. No subsequent version of this License shall retroactively restrict rights already granted under this version.
+
+5.11 Termination for Non-Compliance
+
+If a Licensee fails to comply with the conditions in this Section, the License automatically terminates for that Licensee. Termination includes:
+
+Immediate revocation of rights to use, modify, or redistribute LamaX.
+
+Requirement to cease distribution of non-compliant versions.
+
+Obligation to notify recipients of the non-compliance.
+
+However, rights may be reinstated upon correction of the violation within a reasonable timeframe.
+
+5.12 Survival of Rights
+
+Even upon termination of this License, derivative works already lawfully distributed by the Licensee remain valid, provided attribution remains intact.
+
+5.13 Universality Clause
+
+The rights in this Section apply in all countries, jurisdictions, and legal systems worldwide, and extend to both existing and future forms of intellectual property.
+
+Section 6 — Intellectual Property and Trademark Use
+6.1 Ownership of Intellectual Property
+
+The LamaX project, including its source code, documentation, artwork, logos, and any related creative assets, is the intellectual property of the original developer(s) (“Licensor”).
+
+This License does not transfer ownership of any copyrights, trademarks, patents, or other intellectual property rights.
+
+The Licensor retains exclusive moral and intellectual rights over the original name “LamaX”, its graphical logos, mascots, and unique identifiers.
+
+6.2 Trademark Rights
+
+The name “LamaX” is a distinctive identifier of this project.
+
+Unauthorized use of “LamaX” in a manner that suggests endorsement, sponsorship, or official association with the Licensor is strictly prohibited.
+
+Acceptable uses of the “LamaX” trademark include:
+
+Referencing LamaX as the original source of a derivative work.
+
+Citing LamaX in academic, journalistic, or educational contexts.
+
+Using the name “LamaX” in a factual manner, provided it is not misleading.
+
+Unacceptable uses include:
+
+Branding derivative works as “official LamaX” without Licensor’s explicit approval.
+
+Using “LamaX” to market unrelated software or services.
+
+Incorporating “LamaX” into corporate names, domain names, or product lines without permission.
+
+6.3 Logos and Visual Assets
+
+The LamaX logos, icons, mascots, and other visual assets are considered protected trademarks.
+
+Redistribution of these assets in unmodified form is permitted for the purpose of identifying LamaX.
+
+Modified logos or derivative artwork must not create confusion with the official LamaX brand.
+
+Commercial use of LamaX logos in advertising, packaging, or merchandising requires prior written approval from the Licensor.
+
+6.4 Copyright Acknowledgment
+
+All copyrightable materials within LamaX are licensed under this License, unless explicitly stated otherwise.
+
+Licensees must preserve copyright notices in both source and binary redistributions.
+
+When modifying LamaX, Licensees are required to:
+
+Retain original copyright statements.
+
+Add their own copyright statement to reflect modifications.
+
+Not remove or obscure the acknowledgment of LamaX as the original work.
+
+6.5 Patent Grants and Restrictions
+
+The Licensor grants Licensees a worldwide, royalty-free, non-exclusive patent license to make, use, sell, and distribute LamaX and derivative works, to the extent that such use would otherwise infringe Licensor’s patent claims.
+
+This patent grant is conditioned upon compliance with the terms of this License.
+
+The License does not protect Licensees from third-party patent claims unrelated to the LamaX project.
+
+If the Licensee initiates legal action against the Licensor for patent infringement, the patent license granted herein automatically terminates.
+
+6.6 Domain Names and Online Presence
+
+Licensees must not register domain names that are confusingly similar to “LamaX” for the purpose of misrepresenting affiliation.
+
+Acceptable uses include domains for forks, provided they:
+
+Clearly identify themselves as distinct from LamaX.
+
+Include attribution to LamaX as the upstream source.
+
+Social media accounts, forums, or community hubs using the name LamaX must include disclaimers if they are not officially operated by the Licensor.
+
+6.7 Derivative Work Naming Policy
+
+Derivative works must adopt a name distinct from “LamaX”, unless the derivative is:
+
+An unmodified redistribution of LamaX, or
+
+Explicitly authorized by the Licensor.
+
+Acceptable examples:
+
+“MyOS (based on LamaX)”
+
+“Project Zenith, forked from LamaX”
+
+Unacceptable examples:
+
+“LamaX++”
+
+“Official LamaX Enterprise Edition”
+
+6.8 Enforcement of Intellectual Property Rights
+
+The Licensor reserves the right to enforce intellectual property rights in any jurisdiction worldwide.
+
+Violations of trademark, copyright, or patent provisions may result in:
+
+Termination of rights under this License.
+
+Civil or criminal liability under applicable laws.
+
+Injunctions against further distribution or misrepresentation.
+
+The Licensor may, at their discretion, allow minor non-compliance if it is not misleading or harmful.
+
+6.9 Academic and Research Exemptions
+
+Non-commercial academic, scientific, and educational use of the “LamaX” name and assets is generally permitted, provided attribution is included.
+
+Publications, theses, and research may reference “LamaX” without prior approval, provided they:
+
+Do not claim endorsement by the Licensor.
+
+Preserve acknowledgment of LamaX as the original source.
+
+6.10 Universality Clause for Intellectual Property
+
+This section is enforceable in all jurisdictions worldwide, including regions that do not typically recognize certain intellectual property rights.
+
+Licensees are bound by this Section regardless of local variations in copyright, trademark, or patent law.
+
+In jurisdictions where trademark law is not enforceable, the contractual provisions of this License shall apply as a binding agreement.
+
+6.11 Survival of Rights and Restrictions
+
+Intellectual property restrictions and trademark requirements survive termination of this License.
+
+Even if a Licensee’s rights under other sections are revoked, they remain bound by the obligations of this Section.
+
+Section 7 — Compliance, Monitoring, and Audit Rights
+7.1 General Compliance Obligation
+
+Licensees agree to comply fully with all provisions of this License, including but not limited to the obligations concerning attribution, lawful use, and trademark protection.
+
+Compliance is not optional and extends to all forms of distribution, whether in source code, binary, digital media, or physical media.
+
+Compliance with this License is binding in every jurisdiction worldwide, irrespective of local laws that may conflict with or weaken these obligations.
+
+7.2 Monitoring of Use
+
+The Licensor reserves the right to monitor public and private use of LamaX to ensure compliance with this License.
+
+Monitoring may include:
+
+Examination of publicly available repositories, websites, or distribution platforms.
+
+Review of derivative works advertised as based on LamaX.
+
+Verification of attribution in academic, scientific, or commercial works.
+
+Licensees engaged in commercial distribution must, upon request, provide the Licensor with sufficient documentation proving compliance.
+
+7.3 Audit Rights
+
+The Licensor may, at their discretion, conduct compliance audits of Licensees engaged in:
+
+Commercial distribution of LamaX or derivative works.
+
+Use of LamaX in critical infrastructure, enterprise deployments, or government contracts.
+
+Redistribution at scale (e.g., app stores, package repositories, hardware integration).
+
+Licensees subject to audit must:
+
+Provide reasonable access to relevant records, systems, and distribution channels.
+
+Deliver copies of modifications, build scripts, and deployment notes for verification.
+
+Ensure cooperation with auditors designated by the Licensor.
+
+Failure to cooperate with an audit constitutes a material breach of this License.
+
+7.4 Legal Enforcement Across Jurisdictions
+
+This License is enforceable in all courts of law worldwide, regardless of jurisdiction, country, or international treaty participation.
+
+Licensees expressly agree that:
+
+Any violation may be prosecuted in any competent court, regardless of location of the Licensee.
+
+The Licensor retains the right to select the venue of enforcement at their discretion.
+
+The obligations in this License supersede local contract law where such law would otherwise diminish enforceability.
+
+Recognition of judgments: Licensees agree that any court judgment enforcing this License is valid and binding across all jurisdictions, under the principle of universal applicability.
+
+7.5 Remedies for Non-Compliance
+
+In the event of a violation, the Licensor may pursue the following remedies:
+
+Termination of License rights.
+
+Injunctions to immediately cease distribution or use.
+
+Recovery of financial damages, including profits obtained from unauthorized use.
+
+Seizure of materials distributed in violation of this License, subject to applicable laws.
+
+Remedies under this License are cumulative and do not exclude any other remedies available under national or international law.
+
+7.6 Universal Jurisdiction Clause
+
+All disputes, claims, or enforcement actions relating to this License are subject to the jurisdiction of all courts worldwide.
+
+Licensees waive any defense of “lack of jurisdiction” or “inconvenient forum” with respect to any court proceedings under this License.
+
+By accepting and using LamaX, Licensees consent to be sued in any jurisdiction globally, including but not limited to:
+
+National courts.
+
+International tribunals.
+
+Arbitration panels recognized by international law.
+
+7.7 International Arbitration Option
+
+In addition to court enforcement, the Licensor may, at their sole discretion, submit disputes to binding arbitration under international commercial arbitration rules.
+
+Arbitration may be conducted in any location, in any language, and under any recognized arbitration institution.
+
+The decision of the arbitrator shall be final and enforceable in all jurisdictions without exception.
+
+7.8 Survivability of Compliance Obligations
+
+Obligations under this Section survive termination of the License.
+
+Even if the Licensee ceases use of LamaX, they remain accountable for past violations.
+
+Courts and arbitration bodies worldwide retain authority to enforce penalties for historical breaches.
+
+7.9 Transparency in Enforcement
+
+The Licensor may publicly disclose details of enforcement actions, including the identity of non-compliant Licensees.
+
+Public reporting of violations serves as a deterrent and as an educational resource for the broader community.
+
+Licensees found in violation may have their names published in “Non-Compliance Registers” maintained by the Licensor.
+
+7.10 Waiver of Immunity
+
+Licensees who are governmental bodies, international organizations, or state-owned enterprises explicitly waive sovereign immunity in relation to disputes arising under this License.
+
+This ensures that compliance obligations are enforceable even against entities that might otherwise claim immunity under international law.
+
+Section 8 — Warranties, Disclaimers, and Limitation of Liability
+8.1 Absence of Warranty
+
+LamaX and all accompanying source code, binaries, documentation, and derivative materials are provided “AS IS” without warranty of any kind.
+
+The Licensor makes no representations and disclaims all warranties, express or implied, including but not limited to:
+
+Fitness for a particular purpose.
+
+Merchantability or marketability.
+
+Compatibility with specific hardware or software.
+
+Non-infringement of third-party intellectual property rights.
+
+Security, stability, or performance guarantees.
+
+8.2 No Guarantee of Continuous Operation
+
+The Licensor does not guarantee that LamaX will function uninterrupted, error-free, or defect-free.
+
+System crashes, kernel panics, memory leaks, data corruption, or hardware damage resulting from use of LamaX are solely the responsibility of the Licensee.
+
+Licensees assume all risk for maintaining backups, redundancy, and disaster recovery procedures.
+
+8.3 Limitation of Liability
+
+Under no circumstances shall the Licensor be liable for:
+
+Direct damages.
+
+Indirect damages.
+
+Consequential damages.
+
+Incidental damages.
+
+Punitive damages.
+
+Loss of profits, data, reputation, goodwill, or business opportunity.
+
+Liability exclusion applies regardless of legal theory, whether contract, tort, negligence, strict liability, statutory obligation, or otherwise.
+
+Even if the Licensor has been advised of the possibility of such damages, liability remains excluded.
+
+8.4 Assumption of Risk by Licensee
+
+By using LamaX, Licensees acknowledge and accept full personal and professional risk.
+
+Risks include but are not limited to:
+
+Data loss, corruption, or unauthorized disclosure.
+
+Security vulnerabilities exploited by third parties.
+
+System instability, incompatibility, or malfunction.
+
+Physical damage to hardware caused by improper driver interactions.
+
+Legal exposure arising from derivative works or third-party claims.
+
+The Licensee assumes responsibility for all consequences, including financial, legal, and technical.
+
+8.5 No Responsibility for Derivative Works
+
+The Licensor has no liability for derivative works created from LamaX.
+
+Licensees modifying or redistributing LamaX are solely responsible for ensuring compliance with laws, regulations, and contractual obligations.
+
+Any harm caused by derivative works—including malware, backdoors, or malicious features—shall be attributed exclusively to the modifying Licensee.
+
+8.6 Commercial and Governmental Use
+
+Licensees deploying LamaX in commercial, military, or governmental systems assume full liability for resulting outcomes.
+
+The Licensor disclaims responsibility for:
+
+Failure of LamaX in mission-critical environments.
+
+Breach of national security or defense obligations.
+
+Loss of human life, personal injury, or property damage.
+
+The Licensor expressly rejects liability even if LamaX is incorporated into life-support systems, aviation systems, nuclear facilities, or medical devices.
+
+8.7 Universal Legal Disclaimer
+
+This License is enforceable globally, and the disclaimers herein override conflicting consumer protection laws.
+
+In jurisdictions that do not permit exclusion of implied warranties or limitation of liability:
+
+The Licensee accepts the maximum disclaimer permissible under local law.
+
+If liability cannot be fully disclaimed, it is capped at one (1) unit of the local currency regardless of actual damages.
+
+8.8 Indemnification by Licensee
+
+Licensees agree to indemnify, defend, and hold harmless the Licensor from any claim, lawsuit, or proceeding arising from use, modification, or distribution of LamaX.
+
+Indemnification covers all costs, including legal fees, damages, settlements, and administrative expenses.
+
+This obligation survives termination of the License.
+
+8.9 Waiver of Class Actions
+
+Licensees waive the right to participate in or initiate class action lawsuits against the Licensor.
+
+All disputes must be pursued individually.
+
+8.10 Force Majeure Disclaimer
+
+The Licensor is not responsible for any delay, failure, or damage caused by events beyond reasonable control, including but not limited to:
+
+Natural disasters.
+
+Wars, armed conflicts, or terrorist attacks.
+
+Government actions, sanctions, or embargoes.
+
+Internet or infrastructure failures.
+
+Acts of third-party service providers.
+
+8.11 Finality of Disclaimer
+
+The disclaimers and limitations of liability in this Section are absolute, irrevocable, and universal.
+
+Licensees expressly acknowledge that they cannot challenge or weaken these disclaimers in any court or tribunal.
+
+Even if parts of this Section are declared unenforceable, the remaining parts remain in full effect.
+
+8.12 Survival
+
+The provisions of this Section survive termination of the License.
+
+Even after the Licensee ceases use of LamaX, they remain bound by the disclaimers and liability exclusions herein.
